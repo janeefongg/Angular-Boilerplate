@@ -14,11 +14,9 @@
       $stateProvider
         .state('dashboard', {
             url: '/dashboard',
-            templateUrl: '/app/dashboard/dashboard.html',
-            controller: 'DashboardCtrl',
-            controllerAs: 'dashboard'
+            templateUrl: './pages/dashboard/dashboard.html',
+            controller: 'DashboardCtrl as vm'
         })
     }
 
 })();
-    
