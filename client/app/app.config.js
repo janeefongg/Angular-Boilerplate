@@ -11,6 +11,7 @@
 
       $urlRouterProvider.otherwise('dashboard');
       
+      //TODO: modify snippet to condense controller alias keys
       $stateProvider
         .state('dashboard', {
             url: '/dashboard',
